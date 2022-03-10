@@ -1,0 +1,35 @@
+/* top background */
+.top {
+  background: url("https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png")
+    no-repeat center center/cover;
+  /* position: relative; */
+  height: 60vh;
+
+  /* height: 80vh; */
+}
+.top-content {
+  justify-content: space-between;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 24rem);
+  position: relative;
+  top: 3rem;
+  align-items: center;
+}
+
+/* top logo */
+.top-logo {
+  text-align: center;
+}
+
+.top-logo img {
+  width: 15vw;
+}
+/* top headline */
+.top-headline {
+  text-align: center;
+  color: white;
+  font-size: 2.15rem;
+  font-weight: medium;
+}

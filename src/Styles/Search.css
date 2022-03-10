@@ -1,0 +1,52 @@
+/* Search container */
+
+.search-container-top {
+  background-color: white;
+  display: flex;
+  margin: 0 auto;
+  width: 65vw;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.5em;
+  align-items: center;
+}
+
+.search-container-top input {
+  border: none;
+  font-size: 0.85rem;
+}
+.search-container-top input:focus {
+  outline: none;
+}
+
+/* Search adress */
+.search-adress {
+  display: flex;
+  align-items: center;
+  margin-right: 1rem;
+}
+.search-adress input {
+  border: none;
+  width: 100%;
+  padding: 0.5rem 0.15rem;
+  max-width: 75%;
+}
+
+.down-arrow {
+  border-right: 1px solid #beb3b4;
+  padding-right: 0.5rem;
+}
+
+/* search restaurant */
+.search-restaurant-box {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+}
+.search-restaurant-box input {
+  width: 100%;
+  padding-left: 0.5rem;
+}
+.search-restaurant-box searchRes {
+  max-width: 100%;
+}
