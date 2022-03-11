@@ -1,0 +1,12 @@
+.getApp--download-links-heading{
+    color:var(--fade-black);
+}
+
+.getApp--download-stores{
+    display:flex;
+}
+.getApp--download-stores img{
+    margin-top: 1rem;
+    width:30%;
+    margin-right: 5px;
+}

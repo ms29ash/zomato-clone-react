@@ -2,8 +2,8 @@
   /* height: 10rem; */
   width: 100%;
 
-  outline: 1px solid #beb3b4;
-  border-radius: 0.75rem 0.75rem 0 0;
+  outline: 0.25px solid #e8e8e8;
+  border-radius: 0.75rem 0.75rem;
   margin: 0 5px;
   transition: all 3s;
 }

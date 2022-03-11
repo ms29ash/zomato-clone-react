@@ -1,0 +1,31 @@
+.collection-card img {
+  width: 97%;
+  border-radius: 0.65rem 0.65rem;
+  height: 20rem;
+  object-fit: cover;
+}
+.collection-card {
+  height: 20rem;
+  object-fit: cover;
+  border-radius: 0.65rem 0.65rem;
+}
+.collection-card-text {
+  width: 84%;
+  position: relative;
+  bottom: 4.65rem;
+  padding: 1rem 1rem;
+  color: #fff;
+  border-radius: 0.65rem 0.65rem;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 1) 115%
+  );
+}
+.collection-card-subtext {
+  display: flex;
+}
+.collection-card-subtext > div > p {
+  margin-right: 0.5rem;
+}

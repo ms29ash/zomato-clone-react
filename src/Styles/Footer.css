@@ -1,0 +1,40 @@
+/* Top section footer */
+.footer-top-section {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+.footer-logo {
+  width: 75%;
+}
+.footer-logo img {
+  width: 18%;
+}
+
+/* Middle Section footer */
+
+.footer-middle-section {
+  margin: 3rem 0;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.footer-list p {
+  color: #828282;
+  line-height: 1.75rem;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+}
+.footer-title {
+  color: black !important;
+  font-size: 0.8rem !important;
+}
+
+/* Bottom section footer */
+.footer-bottom-section {
+  margin-top: 1rem;
+  color: #828282;
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+}

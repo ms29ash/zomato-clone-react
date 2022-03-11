@@ -1,0 +1,39 @@
+.collection{
+    margin-top:6rem;
+     
+}
+.collection h1{
+   font-weight: 500;
+    font-size:2rem;
+}
+.collection-container {
+  display: flex;
+ justify-content: space-between;
+ margin:.4rem 0 2rem;
+ opacity:.85;
+}
+.collection-container p{
+   font-weight: 300;
+   color:#343434;
+}
+
+
+.collection-container a {
+  display: flex;
+  text-decoration: none;
+  color: #ff7e8b;
+  align-items: center;
+
+}
+.collection-container a p{
+  color: #ff7e8b;
+  margin-right: .5rem;
+}
+
+
+.collection-cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}

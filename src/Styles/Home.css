@@ -1,0 +1,17 @@
+.main-section {
+  width: 70vw;
+  margin: 0 auto;
+}
+
+.main-section > div {
+  margin-top: 4rem;
+}
+
+.getApp-section {
+  margin-top: 4rem;
+  background-color: #fffbf7;
+}
+.getApp--main-section {
+  width: 70vw;
+  margin: 0 auto;
+}

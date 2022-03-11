@@ -2,4 +2,19 @@
   margin: 0;
   padding: 0;
   font-family: Okra, Helvetica, sans-serif;
+  font-weight:500;
+  
+}
+html, body{
+  overflow-x: hidden;
+}
+
+:root {
+  --black: #000;
+  --fade-black: #363636;
+  --light-black: #cfcfcf;
+  --zm-red: rgb(239, 79, 95);
+  --w-500:500;
+  --w-300:300;
+  --w-100:100;
 }

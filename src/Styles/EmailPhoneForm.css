@@ -1,0 +1,71 @@
+.getApp--phone-email-form-container {
+  display: flex;
+  align-items: center;
+}
+.getApp--phone-Email-container {
+  width: 60%;
+  padding: 0.8rem 1rem;
+  border-radius: 0.4rem;
+  border: 1px solid var(--light-black);
+  display: flex;
+  align-items: center;
+  width: 15rem;
+  background-color: white;
+}
+
+.getApp--phone-Email-container:focus {
+  border: 1px solid rgb(17, 145, 153);
+}
+.getApp--phone-Email-container:focus-within {
+  border: 1px solid rgb(17, 145, 153);
+}
+.border-red {
+  outline: 1px solid var(--zm-red);
+}
+
+.getApp--phone-Email-container input {
+  border: none;
+  outline: none;
+  font-size: 1.2rem;
+}
+
+.getApp--phone-Email-container select {
+  border: none;
+  outline: none;
+  font-size: 1.1rem;
+}
+
+.getApp--input-email {
+  width: 10rem;
+}
+.getApp--input-phone {
+  width: 80% !important;
+}
+
+/* Share Link Button */
+
+.getApp--btn-share-app {
+  outline: none;
+  border: none;
+  margin-left: 0.5rem !important;
+  width: 35%;
+  text-align: center;
+
+  padding: 1rem;
+  background-color: var(--zm-red);
+  color: white !important;
+  border-radius: 0.4rem;
+}
+/* Hide number arrow bar */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* Alert */
+.getApp-alert {
+  margin-top: 0.2rem;
+  color: var(--zm-red);
+  font-size: 0.8rem;
+  height: 1.5rem;
+}

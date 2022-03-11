@@ -1,0 +1,22 @@
+.explore--delivery-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.explore--delivery-container a {
+  line-height: 3rem;
+  align-items: center;
+  text-decoration: none;
+  color: #828282;
+}
+.deliver--container {
+  margin-top: 8rem;
+}
+.deliver--container-head {
+  margin-bottom: 3rem;
+}
+
+.see-more-cities {
+  text-decoration: underline !important;
+  color: black !important;
+}

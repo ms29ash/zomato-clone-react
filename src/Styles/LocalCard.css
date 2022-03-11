@@ -1,0 +1,23 @@
+.local-link {
+  text-decoration: none !important;
+  color:rgb(51, 51, 51);
+}
+
+.localCard {
+  display: flex;
+  padding: 1.25rem 2rem;
+  outline: .5px solid #dbdada;
+  border-radius: 0.5rem;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.25rem;
+  box-shadow: .5px 1px 5px #c2c1c1;
+}
+
+.localCard:hover {
+  box-shadow: 1px 5px 15px #c2c1c1;
+}
+
+.local-card-text {
+  display: flex;
+}
